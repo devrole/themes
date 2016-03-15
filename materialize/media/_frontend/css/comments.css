@@ -125,7 +125,6 @@ div.comments-list div.mythemes-comments > ol li.comment header cite a{
     color: #303030;
     font-size: 13px;
     font-weight: bold;
-
     text-transform: uppercase;
 }
 div.comments-list div.mythemes-comments > ol li.pingback header cite a,
@@ -164,7 +163,6 @@ div.comments-list div.mythemes-comments > ol li.comment header span.comment-meta
     padding: 4px 8px;
 }
 div.comments-list div.mythemes-comments > ol li.comment header span.comment-meta span.comment-replay{
-    background-color: red;
     display: inline-block;
     font-family: Helvetica, Arial,sans-serif,serif;
     font-size: 11px;
@@ -200,10 +198,19 @@ div.comments-list div.mythemes-comments > ol li.comment header span.comment-meta
     display: block;
     font-family: Helvetica, Arial,sans-serif,serif;
     font-size: 11px;
-
     line-height: 8px;
     margin: 0px;
     padding: 0px;
+}
+/* DEVROLE */
+div.comments-list div.mythemes-comments > ol li.comment header span.comment-meta span.comment-replay a:hover{
+    color:       rgb(255, 152, 0);
+    display:     block;
+    font-family: Helvetica, Arial,sans-serif,serif;
+    font-size:   11px;
+    line-height: 8px;
+    margin:      0px;
+    padding:     0px;
 }
 
 div.comments-list div.mythemes-comments > ol li.pingback div.comment-quote,
